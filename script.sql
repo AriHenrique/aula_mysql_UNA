@@ -51,3 +51,43 @@ UPDATE vendedor
 set nome_vendedor = 'Lourenço da Mata'  -- atualiza a linha com o ID "1"
 where id_vendedor = 1;
 
+UPDATE vendedor
+set nome_vendedor = 'Clara Lima'
+where id_vendedor = 2;
+
+create table produto(
+id_produto INT,
+nome_produto VARCHAR(100),   
+preco DECIMAL(10,2),                  
+quantidade int
+);
+
+
+-- PRATICA
+
+insert into produto values(1,'memoria ram',350.00,4),(2,'gabinete',749.99,1),(
+3,
+'fan',
+60.50,
+3
+),(
+4,
+'processador',
+1119.99,
+1
+),(
+5,
+'placa mãe',
+599.99,
+1
+),(
+6,
+'fonte',
+550.00,
+1
+),(
+7,
+'ssd',
+799.99,
+2
+);
